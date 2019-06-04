@@ -1,7 +1,7 @@
 public class HelloWorld {
 
     //Declaring Class Variables
-    static String helloMessage= "Hello, World!";
+    static String helloMessage;
     ////////////////////////////////////////////
         public static void main(String[] args) {
         System.out.println("Hello World!!!" + "assignment01");
@@ -24,7 +24,8 @@ public class HelloWorld {
             }
                 System.out.println("The Summation is =" + " \t "+  sum);
             }
-                // //Declaring Class Variables helloMessage= "Hello, World!";
+
+            helloMessage= "Hello, World!";
             System.out.println(helloMessage);
 
 
