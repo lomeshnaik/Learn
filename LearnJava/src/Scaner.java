@@ -27,9 +27,7 @@ public class Scaner {
 
         }
 
-
-
-
-
+        helloMessage = "Hello,  World!!!!!" ;
+        System.out.println(helloMessage);
     }
 }
